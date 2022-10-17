@@ -1,0 +1,76 @@
+@import '../../global.css';
+
+.Topbar {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  color: var(--main-color);
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+}
+
+.Topbar.Active {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.Topbar .Wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Topbar .Wrapper .Left {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Gmail {
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Hamburger {
+  width: 32px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.Hamburger span {
+  width: 100%;
+  height: 3px;
+  background-color: var(--main-color);
+  transform-origin: left;
+  transition: all 2s ease;
+}
+
+.Topbar.Active .Hamburger span:first-child,
+.Topbar.Active .Hamburger span:last-child {
+  background-color: #fff;
+}
+
+.Topbar.Active .Hamburger span:first-child {
+  transform: rotate(45deg);
+}
+
+.Topbar.Active .Hamburger span:last-child {
+  transform: rotate(-45deg);
+}
+
+.Topbar.Active .Hamburger span:nth-child(2) {
+  opacity: 0;
+}
