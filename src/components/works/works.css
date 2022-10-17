@@ -1,3 +1,106 @@
 .Works {
-  background-color: lightgreen;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Works .Arrow {
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.Works .Arrow.Left {
+  left: 100px;
+  transform: rotateY(180deg);
+}
+
+.Works .Arrow.Right {
+  right: 100px;
+}
+
+.Works .Slider {
+  height: 350px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease-out;
+}
+
+.Works .Slider .Container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Works .Slider .Container .Item {
+  width: 700px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Works .Slider .Container .Item .Left {
+  flex: 4;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Works .Slider .Container .Item .Left .LeftContainer {
+  width: 90%;
+  height: 79%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Works .Slider .Container .Item .Left .LeftContainer h2 {
+  font-size: 20px;
+}
+
+.Works .Slider .Container .Item .Left .LeftContainer p {
+  font-size: 13px;
+}
+
+.Works .Slider .Container .Item .Left .LeftContainer span {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Works .Slider .Container .Item .Left .LeftContainer .ImgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(245, 179, 155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Works .Slider .Container .Item .Left .LeftContainer .ImgContainer img {
+  width: 25px;
+}
+
+.Works .Slider .Container .Item .Right {
+  flex: 8;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Works .Slider .Container .Item .Right img {
+  width: 400px;
+  transform: rotate(-10deg);
 }

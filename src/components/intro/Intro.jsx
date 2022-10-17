@@ -9,7 +9,7 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: false,
       backDelay: 1500,
-      strings: ['FREELANCE', 'REMOTE', 'Permanent basis.'],
+      strings: ['Developer', 'Designer', 'Content Creator'],
     });
   }, []);
 
@@ -25,7 +25,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Vladyslav Kvanin</h1>
           <h3>
-            <span ref={textRef}></span>
+            Freelance <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#Portfolio">
