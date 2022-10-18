@@ -60,3 +60,19 @@
 .Contact .Right form span {
   color: green;
 }
+
+@media (max-width: 768px) {
+  .Contact {
+    flex-direction: column;
+  }
+
+  .Contact .Right form input {
+    width: 200px;
+    height: 20px;
+  }
+
+  .Contact .Right form textarea {
+    width: 200px;
+    height: 100px;
+  }
+}

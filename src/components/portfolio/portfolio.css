@@ -62,3 +62,21 @@
   opacity: 0.2;
   z-index: 0;
 }
+
+@media (max-width: 768px) {
+  .Portfolio h1 {
+    font-size: 20px;
+  }
+  .Portfolio ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .Portfolio .Container {
+    width: 100%;
+  }
+  .Portfolio .Container .Item {
+    width: 130px;
+    height: 100px;
+  }
+}

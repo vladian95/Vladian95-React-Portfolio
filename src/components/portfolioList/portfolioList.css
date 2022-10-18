@@ -12,3 +12,9 @@
   background-color: var(--main-color);
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .Portfolio ul li {
+    margin-right: 20px;
+  }
+}

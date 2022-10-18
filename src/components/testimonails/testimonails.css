@@ -54,7 +54,7 @@
 .Testimonails .Card .Top img.User {
   height: 60px;
   width: 60px;
-  background-repeat: 50%;
+  border-radius: 50%;
   object-fit: cover;
   margin: 0px 30px;
 }
@@ -78,4 +78,40 @@
 
 .Testimonails .Card .Bottom h4 {
   color: gray;
+}
+
+@media (max-width: 768px) {
+  .Testimonails {
+    justify-content: space-around;
+  }
+  .Testimonails h1 {
+    font-size: 20px;
+  }
+  .Testimonails .Container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .Testimonails .Card {
+    height: 180px;
+    margin: 10px 0px;
+  }
+  .Testimonails .Card.featured {
+    width: 250px;
+    height: 180px;
+    margin: 1px;
+  }
+  .Testimonails .Card .Top img.User {
+    width: 30px;
+    height: 30px;
+  }
+  .Testimonails .Card .Center {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .Testimonails .Card .Bottom h3 {
+    font-size: 14px;
+  }
+  .Testimonails .Card .Bottom h4 {
+    font-size: 13px;
+  }
 }
