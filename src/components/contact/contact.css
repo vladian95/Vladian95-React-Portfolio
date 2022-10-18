@@ -5,6 +5,7 @@
 
 .Contact .Left {
   flex: 1;
+  overflow: hidden;
 }
 
 .Contact .Left img {
@@ -12,5 +13,50 @@
 }
 
 .Contact .Right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 1;
+}
+
+.Contact .Right h2 {
+  font-size: 30px;
+}
+
+.Contact .Right form {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Contact .Right form input {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.Contact .Right form textarea {
+  width: 300px;
+  height: 200px;
+  font-size: 14px;
+}
+
+.Contact .Right form button {
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.Contact .Right form span {
+  color: green;
 }
