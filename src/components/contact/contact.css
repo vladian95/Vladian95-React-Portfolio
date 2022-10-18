@@ -1,3 +1,16 @@
 .Contact {
-  background-color: lightblue;
+  background-color: #fff;
+  display: flex;
+}
+
+.Contact .Left {
+  flex: 1;
+}
+
+.Contact .Left img {
+  height: 100%;
+}
+
+.Contact .Right {
+  flex: 1;
 }
