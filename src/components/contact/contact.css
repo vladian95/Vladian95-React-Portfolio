@@ -1,6 +1,20 @@
+@import '../../global.css';
+
 .Contact {
   background-color: #fff;
   display: flex;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 3s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .Contact .Left {
@@ -64,6 +78,10 @@
 @media (max-width: 768px) {
   .Contact {
     flex-direction: column;
+  }
+
+  .Contact .Left {
+    text-align: center;
   }
 
   .Contact .Right form input {

@@ -28,6 +28,18 @@
   justify-content: space-around;
   padding: 20px;
   transition: all 1s ease;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 3s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .Testimonails .Card.featured {
@@ -77,7 +89,7 @@
 }
 
 .Testimonails .Card .Bottom h4 {
-  color: gray;
+  color: #fff;
 }
 
 @media (max-width: 768px) {

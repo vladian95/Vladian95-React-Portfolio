@@ -4,6 +4,18 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 3s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .Works .Arrow {

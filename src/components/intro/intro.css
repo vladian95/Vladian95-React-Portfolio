@@ -1,26 +1,47 @@
+@import '../../global.css';
+
 .Intro {
   background-color: #fff;
   display: flex;
+  background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 3s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .Intro .Left {
   flex: 0.5;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Intro .Left .ImgContainer {
-  width: 700px;
-  height: 700px;
-  background-color: crimson;
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   float: left;
+  position: relative;
+  overflow: hidden;
 }
 
 .Intro .Left .ImgContainer img {
-  height: 90%;
+  height: 140%;
+  position: absolute;
+  bottom: -140px;
 }
 
 .Intro .Right {
@@ -37,9 +58,23 @@
   justify-content: center;
 }
 
-.Intro .Right .Wrapper h1 {
-  font-size: 60px;
+.Intro .Right .Wrapper .Box {
+  font-size: 25px;
   margin: 10px 0px;
+  background-color: #fff;
+  width: 65%;
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 45px;
+}
+
+.Intro .Right .Wrapper .Box h1 {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: bg-animation 3s infinite alternate;
 }
 
 .Intro .Right .Wrapper h2 {
@@ -52,7 +87,6 @@
 
 .Intro .Right .Wrapper h3 span {
   font-size: inherit;
-  color: crimson;
 }
 
 .Intro .Right a {
