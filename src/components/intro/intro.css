@@ -39,7 +39,7 @@
 }
 
 .Intro .Left .ImgContainer img {
-  height: 140%;
+  height: 100%;
   position: absolute;
   bottom: -140px;
 }
@@ -110,6 +110,18 @@
   .Intro {
     flex-direction: column;
     align-items: center;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 3s infinite alternate;
+  }
+
+  @keyframes bg-animation {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
   }
   .Intro .Left .ImgContainer {
     align-items: flex-start;
