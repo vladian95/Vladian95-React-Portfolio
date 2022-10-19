@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vladian95-React-Portfolio/static/css/main.213cc08b.css",
+    "main.js": "/Vladian95-React-Portfolio/static/js/main.a650f907.js",
+    "index.html": "/Vladian95-React-Portfolio/index.html",
+    "main.213cc08b.css.map": "/Vladian95-React-Portfolio/static/css/main.213cc08b.css.map",
+    "main.a650f907.js.map": "/Vladian95-React-Portfolio/static/js/main.a650f907.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.213cc08b.css",
+    "static/js/main.a650f907.js"
+  ]
+}
