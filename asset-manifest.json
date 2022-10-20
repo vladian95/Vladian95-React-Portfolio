@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Vladian95-React-Portfolio/static/css/main.f91d48d6.css",
+    "main.css": "/Vladian95-React-Portfolio/static/css/main.ff435687.css",
     "main.js": "/Vladian95-React-Portfolio/static/js/main.a650f907.js",
     "index.html": "/Vladian95-React-Portfolio/index.html",
-    "main.f91d48d6.css.map": "/Vladian95-React-Portfolio/static/css/main.f91d48d6.css.map",
+    "main.ff435687.css.map": "/Vladian95-React-Portfolio/static/css/main.ff435687.css.map",
     "main.a650f907.js.map": "/Vladian95-React-Portfolio/static/js/main.a650f907.js.map"
   },
   "entrypoints": [
-    "static/css/main.f91d48d6.css",
+    "static/css/main.ff435687.css",
     "static/js/main.a650f907.js"
   ]
 }
