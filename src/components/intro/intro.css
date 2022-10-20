@@ -127,7 +127,8 @@
     align-items: flex-start;
   }
   .Intro .Left .ImgContainer img {
-    height: 50%;
+    height: 81%;
+    bottom: 85%;
   }
   .Intro .Right .Wrapper {
     padding-left: 0;
